@@ -1,1 +1,1 @@
-export * from "./partners-list";
+export * from './partners-list';

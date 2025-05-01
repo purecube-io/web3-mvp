@@ -1,10 +1,16 @@
-import { partnerModelProps } from "entities/partner/api";
-import Image from "next/image";
+import { partnerModelProps } from 'entities/partner/api';
+import Image from 'next/image';
 
 export const PartnerCard = (partner: partnerModelProps) => {
-	return (
-		<div className="relative flex flex-col justify-center items-center bg-neutral-800 p-3 md:p-5 rounded-3xl">
-			<Image src={partner.image} width={200} height={200} alt="logo" />
-		</div>
-	)
-}
+  return (
+    <div className="relative overflow-hidden bg-neutral-800 rounded-3xl pt-[100%]">
+      <Image
+        src={partner.image}
+        fill
+        style={{ objectFit: 'contain', objectPosition: 'center' }}
+        alt="logo"
+        className="p-3"
+      />
+    </div>
+  );
+};

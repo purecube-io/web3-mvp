@@ -2,15 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "fonts.css";
-@import "swiper.css";
+@import 'fonts.css';
+@import 'swiper.css';
 
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-	@apply bg-black
+  @apply bg-black
 				 text-white
 				 font-body-regular
 				 text-lg;

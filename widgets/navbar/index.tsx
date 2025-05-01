@@ -1,10 +1,10 @@
-import { DesktopNavbar, MobileNavbar } from "./ui"
+import { DesktopNavbar, MobileNavbar } from './ui';
 
 export const Navbar = () => {
-	return (
-		<>
-			<DesktopNavbar />
-			<MobileNavbar />
-		</>
-	)
-}
+  return (
+    <>
+      <DesktopNavbar />
+      <MobileNavbar />
+    </>
+  );
+};

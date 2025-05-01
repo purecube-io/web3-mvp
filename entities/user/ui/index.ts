@@ -1,2 +1,2 @@
-export * from "./user-avatar";
-export * from "./user-profile-card";
+export * from './user-avatar';
+export * from './user-profile-card';

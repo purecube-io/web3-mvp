@@ -1,8 +1,8 @@
-import Head from "next/head";
-import Link from "next/link";
-import { Meta } from "shared/model";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import Head from 'next/head';
+import Link from 'next/link';
+import { Meta } from 'shared/model';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
 export default function NotFoundPage() {
   return (
@@ -29,5 +29,5 @@ export default function NotFoundPage() {
         </Link>
       </div>
     </>
-  )
+  );
 }

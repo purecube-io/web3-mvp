@@ -1,5 +1,5 @@
 export interface partnerModelProps {
-	name?: string,
-	image: string,
-	link?: string,
+  name?: string;
+  image: string;
+  link?: string;
 }
