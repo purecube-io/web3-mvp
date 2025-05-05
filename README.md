@@ -18,7 +18,7 @@ This is a Web3 game platform currently under development. The frontend is built 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Pure-Cube/web3-frontend.git
+git clone https://github.com/purecube-io/web3-mvp.git
 cd web3-frontend
 ```
 
